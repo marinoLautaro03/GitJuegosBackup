@@ -1,0 +1,1 @@
+xdelta3 -ndfs 999.nds parche.xdelta 999traducido.nds

@@ -1,0 +1,133 @@
+Traducción al castellano
+999: Nine Hours, Nine Persons, Nine Doors (C) Chunsoft, Asksys Games, Nintendo.
+
+-Las herramientas utilizadas para la inserción de textos, compresión de gráficos
+(todavía no pública) y las fuentes modificadas han sido realizadas por CUE. 
+Cualquiera que esté interesado en ellas debe acudir a
+http://romxhack.esforos.com/portal.php y pedírselas en persona.
+La codificación AT6P de los gráficos ha sido decodificada por pleonex, y se ha
+utilizado su programa Tinke para la realización del juego con los archivos
+modificados.-
+
+
+*Equipo de 999 Team*
+Programación: CUE, pleonex.
+Traducido por: mister seta 123, Junpei, PaoPao, Satoshi, Zaphira.
+Inserción de texto: mister seta 123, PaoPao, Junpei.
+Edición de gráficos: PaoPao, mister seta 123 (parcialmente).
+
+Agradecimientos a:
+-CUE y pleonex, por su apoyo durante este año y medio de proyecto.
+-xulikotony, por la adaptación de "Truth had gone".
+-Blogravity, por las carátulas traducidas.
+-A ti, por jugar a la traducción.
+-Y a todos los traductores que abandonaron el equipo. Gracias por intentar ayudar
+de todas formas.
+
+<<Versión 0.9>>
+
+-Corregidos fallos varios en los textos, y tontería/broma de Junpei sobre techos 
+cambiada por dar vergüenza ajena. (por suerte, era rebuscada. xD)
+
+-Cuelgues por punteros cambiados en el arm9 supuestamente corregidos.
+
+-Un gráfico que se quedó sin meter ya está traducido.
+
+-Mensajes de sistema traducidos. (gracias a Liquid Snake!, del equipo italiano,
+por la traducción)
+
+<<Versión 0.8>>
+
+-Primera versión "oficial" de la traducción. Traducida toda la historia (sujeta a
+cambios) y editados todos los gráficos.
+
+-Cosas por traducir: mensajes de sistema, nombres, ubicaciones, archivos.
+
+-Los vídeos, bajo previo aviso, son imposibles de editar. Si alguien no consigue
+hacer un programa con el codec de mobiclip, no se sacará nueva versión del
+parche final con los vídeos traducidos.
+
+
+
+
+{Cómo parchear}
+
+-En la carpeta donde tenemos el parche y el programa xdelta, ponemos la ROM
+original. Tiene que tener de nombre "999.nds"
+-Ejecutamos "parchear.bat" Se creará una ROM nueva de nombre 999traducido.nds,
+el juego traducido.
+
+
+<Si el juego no te funciona...>
+
+1. Ten siempre la versión más reciente de tu flashcard. A veces este es el problema
+más común.
+2. Si sigue sin funcionar, comprueba que no tienes una ROM trimeada. El juego
+debería ocupar 128 Megabytes. (si ves por alguna parte 1024, no te confundas. Eso
+son Megabits.)
+4. Si a pesar de esto te sigue sin funcionar, puede que el parche se haya 
+aplicado mal. Sigue estos pasos:
+
+-Teniendo a mano la ROM original y con WinRAR instalado, hacemos clic derecho en 
+la ROM y le damos a "Añadir al archivo...".
+-En "Método de compresión" ponemos "no comprimir" y le damos a Aceptar.
+-Hacemos doble clic al .rar, y miramos el CRC32, la última columna a la derecha:
+
+El CRC32 del primer dump de la ROM es D7F85F15.
+El CRC32 del redump de la ROM es 95893C77 y debería cambiar a F338EE51 al parchearla.
+
+La segunda ROM es por lo general la que suele rondar. El primer dump de la ROM también
+debería funcionar. Si fuera necesario aplicar el fix AP del juego, habría que
+cambiar los bytes de la protección AP a mano, o aplicar el parche con el
+checksum deshabilitado, (se puede hacer con el delta patcher) aunque eso
+permitiría poner el parche a cualquier fichero.
+
+Si en el caso del redump, no sale el CRC que toca, habría que volver a parchear.
+
+
+
+--Historia de la traducción--
+
+El proyecto de traducción de 999 comenzó en febrero de 2011 con Trad Team Spain, grupo
+de traducciones por fans primerizo, organizado por Kaos.
+Como lugar de organización se hizo un blog con el mismo nombre del grupo.
+
+Pero en agosto del mismo año, Kaos canceló el proyecto por motivos personales y
+técnicos, supuestamente por no poder modificar los punteros y sobrepasar el
+límite de caracteres que suponen las líneas en inglés, entre otras cosas.
+
+Yo (mister seta 123) formaba parte del equipo de traductores. Al ver la noticia de la
+cancelación, me propuse intentar continuar el proyecto.
+Aunque hice alguna traducción de juegos de NDS, estaba un poco verde en el tema,
+así que me familiaricé un poco con los conceptos y programas que se utilizan.
+
+Al mismo tiempo, me enteré de que la comunidad española de Ace Attorney,
+más concretamente el usuario Junpei, estaba planeando hacer una "guía de textos" 
+del juego, una traducción expresamente de los textos, sin incluirlos en el juego.
+
+Así se formó el equipo inicial del segundo grupo, que más adelante se decidiría 
+nombrar como "999 Team".
+Un usuario del foro de AAS, Chocolat, acababa de crear un foro sobre 999, 
+así que se aprovechó para organizarnos con la traducción.
+
+Sin embargo, todavía necesitábamos herramientas para realizar una traducción en
+condiciones. 
+Kaos no me envió nada de sus avances, (si es que los hubo, lo cual es
+un misterio) así que hablando con uno de los integrantes del equipo, xulikotony, 
+me comentó que probara suerte en romxhacking, a ver si CUE podía echarle un vistazo.
+
+Así, CUE nos ayudó con la inserción de textos y las fuentes.
+
+Por desgracia, sobre octubre de 2011 desaparecieron CASI TODOS los traductores y
+correctores. Se terminó el apartado de traducción mayormente entre Junpei, PaoPao
+y yo, y me puse también como corrector por falta de gente. El equipo final es el
+que figura al principio de este documento.
+
+Lanzamos una beta/demo del parche en mayo de 2012, con una parte muy reducida
+de la traducción de demostración, aunque a la larga no fue buena idea por acabar
+pululando por ahí como traducción completa, gracias a la desinformación de cierta
+gente.
+
+CUE y plenex nos siguieron ayudando con los gráficos, y la traducción se completó en
+gran parte en diciembre de 2012, y se previó lanzar el primer parche oficial en
+enero del siguiente año, que acabó saliendo el 31 de enero de 2013.
